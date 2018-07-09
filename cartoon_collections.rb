@@ -26,7 +26,7 @@ def find_the_cheese(array)
       return x.join("")
     else
       return nil
-  end
+    end
 end
 
 
