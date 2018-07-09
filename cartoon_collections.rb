@@ -25,7 +25,7 @@ def find_the_cheese(array)
     if array.include?(cheese_types)
       new_array = []
       
-      array.select do |cheese|
+      array.select do |x|
         cheese == cheese_types
         new_array << cheese
       end
