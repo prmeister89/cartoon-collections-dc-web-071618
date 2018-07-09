@@ -21,10 +21,11 @@ def find_the_cheese(array)
   
   
   if array.include?(cheese_types) == true
-    array.find do |cheese|
-      cheese
+    new_array = []
+      array.find do |cheese|
+        new_array << cheese
     end
-  return array.join("")
+  return new_array.join("")
   else
     return nil
   end
