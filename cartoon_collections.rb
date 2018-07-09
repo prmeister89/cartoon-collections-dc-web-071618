@@ -25,10 +25,10 @@ def find_the_cheese(array)
   if array.include?(cheese_types)
     new_array = []
       
-    array. do |x|
-      x.include?(cheese_types)
-      new_array << x
-    end
+      array. do |x|
+        x.include?(cheese_types)
+        new_array << x
+      end
     return new_array.join("")
   else
     return nil
