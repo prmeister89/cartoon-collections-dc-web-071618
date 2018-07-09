@@ -23,7 +23,8 @@ def find_the_cheese(array)
   
   if true
     new_array = []
-    new_array << array.include?(cheese_types.any?)
+    
+    new_array << array.include?(cheese_types)
     return new_array.join("")
   else
     return nil
