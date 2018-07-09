@@ -23,6 +23,7 @@ def find_the_cheese(array)
     array.find do |x|
       x.include?(cheese_types)
     end
+  return x.join("")
       
   else
     return nil
