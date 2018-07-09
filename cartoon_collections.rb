@@ -26,6 +26,7 @@ def find_the_cheese(array)
       new_array = []
       
       array.select do |cheese|
+        cheese == cheese_types
         new_array << cheese
       end
     return new_array.join("")
