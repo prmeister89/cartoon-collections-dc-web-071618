@@ -18,11 +18,11 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  new_array = []
   
   array.include?(cheese_types)
   
   if true
+    new_array = []
     new_array << array.include?(cheese_types)
     return new_array.join("")
   else
