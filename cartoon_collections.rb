@@ -22,9 +22,8 @@ def find_the_cheese(array)
   
     if true
         array.find do |cheese|
-          cheese
+          cheese.join("")
         end
-      return x.join("")
     else
       return nil
     end
