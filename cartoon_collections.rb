@@ -24,7 +24,7 @@ def find_the_cheese(array)
     new_array = []
       array.find do |cheese|
         new_array << cheese
-    end
+      end
   return new_array.join("")
   else
     return nil
